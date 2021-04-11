@@ -1,0 +1,11 @@
+{
+	"name": "SEO Meta tag",
+	"uri": "https://github.com/Kuddus95/q2a-seo-meta-tag",
+	"description": "This plugin allows you to index pages by search engines.",
+	"version": "1",
+	"date": "2021-04-11",
+	"author": "Aman", 
+	"author_uri": "https://github.com/kuddus95",
+	"license": "GPLv2",
+	"load_order": "after_db_init"
+}
