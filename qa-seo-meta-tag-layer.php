@@ -17,32 +17,29 @@
 		{
 			if (qa_opt('seomt_activity') && ($this->template=='activity'))
 			{
-				$this->output('<META NAME="Robots" CONTENT="INDEX, FOLLOW">
-				<META NAME="Robots" CONTENT="NOODP">
-<META NAME="Robots" CONTENT="Noarchive">
-<META NAME="revisit-after" CONTENT="3 days">
-<META NAME="rating" CONTENT="5">
-<META NAME="distribution" CONTENT="web">');
+				$this->output('<meta name="Robots" content="INDEX, FOLLOW">
+<meta name="Robots" content="NOODP">
+<meta name="Robots" content="Noarchive">
+<meta name="rating" content="5">
+<meta name="distribution" content="web">');
 			}
 
 			if (qa_opt('seomt_questions') && ($this->template=='questions'))
 			{
-				$this->output('<META NAME="Robots" CONTENT="INDEX, FOLLOW">
-				<META NAME="Robots" CONTENT="NOODP">
-<META NAME="Robots" CONTENT="Noarchive">
-<META NAME="revisit-after" CONTENT="3 days">
-<META NAME="rating" CONTENT="5">
-<META NAME="distribution" CONTENT="web">');
+				$this->output('<meta name="Robots" content="INDEX, FOLLOW">
+<meta name="Robots" content="NOODP">
+<meta name="Robots" content="Noarchive">
+<meta name="rating" content="5">
+<meta name="distribution" content="web">');
 			}
 
 			if (qa_opt('seomt_hot') && ($this->template=='qa'))
 			{
-				$this->output('<META NAME="Robots" CONTENT="INDEX, FOLLOW">
-				<META NAME="Robots" CONTENT="NOODP">
-<META NAME="Robots" CONTENT="Noarchive">
-<META NAME="revisit-after" CONTENT="3 days">
-<META NAME="rating" CONTENT="5">
-<META NAME="distribution" CONTENT="web">');
+				$this->output('<meta name="Robots" content="INDEX, FOLLOW">
+<meta name="Robots" content="NOODP">
+<meta name="Robots" content="Noarchive">
+<meta name="rating" content="5">
+<meta name="distribution" content="web">');
 			}
 
 			qa_html_theme_base::head_metas();
